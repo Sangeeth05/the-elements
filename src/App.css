@@ -59,6 +59,23 @@
 }
 .chip.is-off { opacity: 0.45; }
 
+.temp { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.temp-label { font-size: 0.78rem; color: var(--muted); }
+.temp-slider { width: 200px; accent-color: #9775fa; }
+.temp-value { min-width: 8.5em; font: 500 0.85rem var(--mono); }
+.temp-value span { color: var(--muted); }
+.temp-reset {
+  padding: 5px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  font: 500 0.78rem var(--font);
+  cursor: pointer;
+}
+.temp-reset:hover:not(:disabled) { border-color: #9775fa; }
+.temp-reset:disabled { opacity: 0.45; cursor: default; }
+
 /* ---------- Table ---------- */
 .table-scroll {
   overflow-x: auto;
@@ -91,6 +108,7 @@
   color: var(--text);
   font-family: var(--font);
   cursor: pointer;
+  isolation: isolate; /* keeps the state overlays below the cell's text */
   transition: transform 0.15s ease, box-shadow 0.2s ease, opacity 0.25s ease, filter 0.25s;
 }
 .cell:hover, .cell:focus-visible, .cell.is-active {
@@ -102,6 +120,53 @@
 }
 .cell.is-dimmed { opacity: 0.16; filter: grayscale(0.8); }
 .cell-num { position: absolute; top: 3px; left: 5px; font: 500 0.6rem var(--mono); color: var(--muted); }
+.cell-state {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  font: 600 0.55rem var(--mono);
+  color: color-mix(in srgb, var(--c) 70%, var(--text));
+  opacity: 0.85;
+}
+.cell.is-unknown .cell-state { color: var(--muted); opacity: 0.6; }
+
+/* State overlays: a faint tint over the category gradient, never replacing it. */
+.cell.is-gas::after,
+.cell.is-liquid::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.cell.is-gas::after {
+  background: linear-gradient(
+    115deg,
+    transparent 35%,
+    color-mix(in srgb, var(--c) 22%, rgba(255, 255, 255, 0.12)) 50%,
+    transparent 65%
+  ) 0 0 / 250% 100%;
+  animation: gas-shimmer 3.2s ease-in-out infinite;
+}
+.cell.is-liquid::after {
+  background: linear-gradient(
+    to top,
+    color-mix(in srgb, var(--c) 26%, transparent) 0%,
+    color-mix(in srgb, var(--c) 14%, transparent) 25%,
+    transparent 50%
+  ) 0 0 / 100% 200%;
+  animation: liquid-wave 3.6s ease-in-out infinite;
+}
+@keyframes gas-shimmer {
+  from { background-position: 100% 0; }
+  to { background-position: -150% 0; }
+}
+@keyframes liquid-wave {
+  0%, 100% { background-position: 0 100%; }
+  50% { background-position: 0 85%; }
+}
+
 .cell-sym { font-size: 1.25rem; font-weight: 700; color: var(--c); line-height: 1; }
 .cell-name {
   margin-top: 3px;
@@ -173,6 +238,7 @@
 @media (prefers-reduced-motion: reduce) {
   .atom-shell { animation: none; }
   .cell { transition: none; }
+  .cell.is-gas::after, .cell.is-liquid::after { animation: none; }
 }
 
 /* ---------- Detail panel ---------- */

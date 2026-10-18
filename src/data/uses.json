@@ -1,0 +1,507 @@
+{
+  "1": {
+    "uses": [
+      {
+        "title": "Ammonia production",
+        "description": "Most industrial hydrogen is combined with nitrogen in the Haber–Bosch process to make ammonia, mainly for fertilizers."
+      },
+      {
+        "title": "Oil refining",
+        "description": "Refineries use hydrogen to remove sulfur from fuels and to break heavy oil fractions into lighter products."
+      },
+      {
+        "title": "Fuel cells",
+        "description": "Fuel cells combine hydrogen with oxygen from the air to produce electricity, with water as the main by-product."
+      },
+      {
+        "title": "Rocket propellant",
+        "description": "Liquid hydrogen burned with liquid oxygen has powered rocket engines such as the Space Shuttle main engines."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Hydrogen_discharge_tube_cropped.jpg",
+        "alt": "Glass discharge tube glowing pink-purple with excited hydrogen gas",
+        "author": "Heinrich Pniok (alchemist-hp)",
+        "license": "FAL or CC BY-NC-ND 3.0 US",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hydrogen_discharge_tube_cropped.jpg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Hydrogen_fuel_cell_bus_in_Daiba_2_%28cropped%29.jpg/960px-Hydrogen_fuel_cell_bus_in_Daiba_2_%28cropped%29.jpg",
+        "alt": "Hydrogen fuel cell bus parked at a station in Odaiba, Tokyo",
+        "author": "Syced",
+        "license": "CC0",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Hydrogen_fuel_cell_bus_in_Daiba_2_(cropped).jpg"
+      }
+    ]
+  },
+  "2": {
+    "uses": [
+      {
+        "title": "MRI scanners",
+        "description": "Liquid helium cools the superconducting magnets in most MRI machines to around 4 K."
+      },
+      {
+        "title": "Balloons and airships",
+        "description": "Helium is lighter than air and, unlike hydrogen, does not burn, so it is used to lift balloons and airships."
+      },
+      {
+        "title": "Leak detection",
+        "description": "Its small atoms pass through tiny gaps, so helium is used as a tracer gas to find leaks in vacuum and pressure systems."
+      },
+      {
+        "title": "Deep-sea diving",
+        "description": "Divers breathe helium–oxygen mixtures on deep dives to reduce the narcotic effects of nitrogen."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Angeregtes_Helium_3.jpg/960px-Angeregtes_Helium_3.jpg",
+        "alt": "Small low-pressure glass ampoule glowing with a helium-3 gas discharge",
+        "author": "Alicepublic",
+        "license": "CC BY-SA 4.0",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Angeregtes_Helium_3.jpg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Helium-Filled_Balloon_-_Rainforest_Biome_%40_Eden_Project_%289757390685%29.jpg/960px-Helium-Filled_Balloon_-_Rainforest_Biome_%40_Eden_Project_%289757390685%29.jpg",
+        "alt": "Large white helium-filled balloon among trees in the Eden Project rainforest biome",
+        "author": "Rob Young from United Kingdom",
+        "license": "CC BY 2.0",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Helium-Filled_Balloon_-_Rainforest_Biome_@_Eden_Project_(9757390685).jpg"
+      }
+    ]
+  },
+  "6": {
+    "uses": [
+      {
+        "title": "Steelmaking",
+        "description": "Coke, a form of carbon, reduces iron ore in blast furnaces, and small amounts of carbon turn iron into steel."
+      },
+      {
+        "title": "Pencils",
+        "description": "Pencil \"lead\" is actually graphite mixed with clay."
+      },
+      {
+        "title": "Cutting tools",
+        "description": "Industrial diamonds, the hardest natural material, are used in saws, drill bits and grinding tools."
+      },
+      {
+        "title": "Filtration",
+        "description": "Activated carbon traps impurities and is widely used to filter water and air."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Graphite-and-diamond-with-scale.jpg/960px-Graphite-and-diamond-with-scale.jpg",
+        "alt": "A dark lump of graphite next to a small clear octahedral diamond crystal, with a 5 mm scale bar",
+        "author": "Robert M. Lavinsky",
+        "license": "CC BY-SA 3.0",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Graphite-and-diamond-with-scale.jpg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Closeup_of_pencil_graphite.JPG/960px-Closeup_of_pencil_graphite.JPG",
+        "alt": "Close-up of a sharpened wooden pencil showing its graphite tip",
+        "author": "Juliancolton",
+        "license": "Public domain (PD-self)",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Closeup_of_pencil_graphite.JPG"
+      }
+    ]
+  },
+  "7": {
+    "uses": [
+      {
+        "title": "Fertilizers",
+        "description": "Nitrogen from the air is converted into ammonia, the basis of most synthetic nitrogen fertilizers."
+      },
+      {
+        "title": "Food packaging",
+        "description": "Packaged foods such as snacks are often filled with nitrogen to displace oxygen and slow spoilage."
+      },
+      {
+        "title": "Cryogenics",
+        "description": "Liquid nitrogen, at about 77 K, is used to freeze and store biological samples and in some medical treatments."
+      },
+      {
+        "title": "Inert atmosphere",
+        "description": "Nitrogen is used to blanket reactive chemicals and in electronics manufacturing to prevent unwanted oxidation."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Fluessiger_Stickstoff.jpg/960px-Fluessiger_Stickstoff.jpg",
+        "alt": "Liquid nitrogen being poured from a metal container, surrounded by white vapor",
+        "author": "Robin Müller",
+        "license": "CC BY-SA 3.0",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Fluessiger_Stickstoff.jpg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Cryogenic_Liquid_Nitrogen_Tank.jpg/960px-Cryogenic_Liquid_Nitrogen_Tank.jpg",
+        "alt": "Tall white cryogenic liquid nitrogen storage tank behind a fence outside a building",
+        "author": "Joe Ravi",
+        "license": "CC BY-SA 3.0",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Cryogenic_Liquid_Nitrogen_Tank.jpg"
+      }
+    ]
+  },
+  "8": {
+    "uses": [
+      {
+        "title": "Medical oxygen",
+        "description": "Hospitals give supplemental oxygen to patients who have trouble getting enough from the air."
+      },
+      {
+        "title": "Steelmaking",
+        "description": "In basic oxygen steelmaking, pure oxygen is blown through molten iron to burn off excess carbon."
+      },
+      {
+        "title": "Welding and cutting",
+        "description": "Oxygen mixed with fuel gases such as acetylene produces hot flames for cutting and welding metal."
+      },
+      {
+        "title": "Rocket oxidizer",
+        "description": "Liquid oxygen is the oxidizer in many rocket engines, burned with fuels such as kerosene or liquid hydrogen."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Liquid_oxygen_in_a_beaker_%28cropped_and_retouched%29.jpg/960px-Liquid_oxygen_in_a_beaker_%28cropped_and_retouched%29.jpg",
+        "alt": "Pale blue liquid oxygen in a frosted glass beaker covered with foil, surrounded by cold vapor",
+        "author": "Staff Sgt. Nika Glover, U.S. Air Force",
+        "license": "Public domain (PD-USGov-Military-Air Force)",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Liquid_oxygen_in_a_beaker_(cropped_and_retouched).jpg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Oxygen_cylinders_at_the_hospital_in_Tomasz%C3%B3w_Mazowiecki%2C_Poland.jpg/960px-Oxygen_cylinders_at_the_hospital_in_Tomasz%C3%B3w_Mazowiecki%2C_Poland.jpg",
+        "alt": "Rows of compressed gas cylinders stored outdoors at a hospital in Tomaszów Mazowiecki, Poland",
+        "author": "WrS.tm.pl",
+        "license": "Public domain (PD-user)",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Oxygen_cylinders_at_the_hospital_in_Tomasz%C3%B3w_Mazowiecki,_Poland.jpg"
+      }
+    ]
+  },
+  "10": {
+    "uses": [
+      {
+        "title": "Neon signs",
+        "description": "Neon glows a distinctive red-orange in gas-discharge tubes and gave neon signs their name."
+      },
+      {
+        "title": "Helium–neon lasers",
+        "description": "Gas lasers using a helium–neon mixture produce a red beam used in laboratories and for alignment."
+      },
+      {
+        "title": "Chipmaking lasers",
+        "description": "Neon is the main buffer gas in the excimer lasers used for photolithography in semiconductor manufacturing."
+      },
+      {
+        "title": "Cryogenic refrigerant",
+        "description": "Liquid neon is used as a refrigerant for cooling to around 27 K."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Neon-glow.jpg/960px-Neon-glow.jpg",
+        "alt": "Small glass vial of ultrapure neon glowing bright orange-red, wrapped in wire",
+        "author": "Jurii",
+        "license": "CC BY 3.0",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Neon-glow.jpg"
+      }
+    ]
+  },
+  "11": {
+    "uses": [
+      {
+        "title": "Table salt",
+        "description": "Sodium chloride is used to season and preserve food."
+      },
+      {
+        "title": "Street lighting",
+        "description": "Sodium-vapor lamps give off a yellow-orange light and have been widely used for street lighting."
+      },
+      {
+        "title": "Baking soda",
+        "description": "Sodium bicarbonate releases carbon dioxide when heated or mixed with acid, making baked goods rise."
+      },
+      {
+        "title": "Reactor coolant",
+        "description": "Liquid sodium has been used as the coolant in some fast-neutron nuclear reactors."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Sodium_metal_chunks_in_oil.jpg",
+        "alt": "Silvery chunks of sodium metal stored under oil in a glass jar to keep them away from air and moisture",
+        "author": "W. Oelen",
+        "license": "CC BY-SA 3.0",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Sodium_metal_chunks_in_oil.jpg"
+      }
+    ]
+  },
+  "13": {
+    "uses": [
+      {
+        "title": "Transportation",
+        "description": "Lightweight aluminium alloys are used in aircraft, cars, trains and boats."
+      },
+      {
+        "title": "Packaging",
+        "description": "Aluminium is made into drink cans and foil because it is light, resists corrosion and is easily recycled."
+      },
+      {
+        "title": "Power lines",
+        "description": "Overhead electrical transmission lines commonly use aluminium conductors, often with a steel core for strength."
+      },
+      {
+        "title": "Construction",
+        "description": "Aluminium is used for window frames, roofing and building cladding."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Aluminium_bar_surface_etched.jpg/960px-Aluminium_bar_surface_etched.jpg",
+        "alt": "Close-up of an etched aluminium bar surface showing large metallic crystal grains",
+        "author": "Alchemist-hp (www.pse-mendelejew.de)",
+        "license": "FAL or GFDL 1.2",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aluminium_bar_surface_etched.jpg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Aluminum_foil_1.jpg/960px-Aluminum_foil_1.jpg",
+        "alt": "A crumpled sheet of aluminium foil on a grey background",
+        "author": "James St. John",
+        "license": "CC BY 2.0",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Aluminum_foil_1.jpg"
+      }
+    ]
+  },
+  "14": {
+    "uses": [
+      {
+        "title": "Computer chips",
+        "description": "Ultra-pure silicon wafers are the base material for most integrated circuits and transistors."
+      },
+      {
+        "title": "Solar cells",
+        "description": "Most solar panels use crystalline silicon cells to convert sunlight into electricity."
+      },
+      {
+        "title": "Silicones",
+        "description": "Silicon is used to make silicones, found in sealants, lubricants, cookware and medical devices."
+      },
+      {
+        "title": "Glass and concrete",
+        "description": "Silica (silicon dioxide), the main component of most sand, is the main raw material for glass and is used in concrete."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Polycrystalline_silicon.jpg/960px-Polycrystalline_silicon.jpg",
+        "alt": "Small solar panel made of blue polycrystalline silicon cells",
+        "author": "Hi-Res Images of Chemical Elements",
+        "license": "CC BY 3.0",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Polycrystalline_silicon.jpg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/12-inch_silicon_wafer.jpg/960px-12-inch_silicon_wafer.jpg",
+        "alt": "A 12-inch silicon wafer patterned with chips, reflecting rainbow colors",
+        "author": "Peellden",
+        "license": "CC BY-SA 3.0 or GFDL",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:12-inch_silicon_wafer.jpg"
+      }
+    ]
+  },
+  "26": {
+    "uses": [
+      {
+        "title": "Steel",
+        "description": "Iron alloyed with a little carbon makes steel, used in buildings, bridges, vehicles and tools."
+      },
+      {
+        "title": "Cast iron",
+        "description": "Cast iron is used for pipes, engine blocks, machine parts and cookware."
+      },
+      {
+        "title": "Electrical equipment",
+        "description": "Iron-based electrical steels form the cores of transformers, motors and generators."
+      },
+      {
+        "title": "Nutrition",
+        "description": "Iron is added to some foods and supplements because the body needs it to make hemoglobin."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Iron_electrolytic_and_1cm3_cube.jpg/960px-Iron_electrolytic_and_1cm3_cube.jpg",
+        "alt": "Chips of electrolytically refined pure iron next to a polished 1 cm³ iron cube",
+        "author": "Alchemist-hp (www.pse-mendelejew.de)",
+        "license": "FAL, GFDL 1.2 or CC BY-NC-ND 3.0 US",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Iron_electrolytic_and_1cm3_cube.jpg"
+      }
+    ]
+  },
+  "29": {
+    "uses": [
+      {
+        "title": "Electrical wiring",
+        "description": "Copper is one of the best electrical conductors and is the standard metal for household and building wiring."
+      },
+      {
+        "title": "Plumbing",
+        "description": "Copper pipes are used for water supply because they resist corrosion."
+      },
+      {
+        "title": "Brass and bronze",
+        "description": "Copper is alloyed with zinc to make brass and with tin to make bronze."
+      },
+      {
+        "title": "Motors and transformers",
+        "description": "Copper wire is wound into the coils of electric motors, generators and transformers."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Native_copper_%28GeoDIL_number_-_854%29.jpg/960px-Native_copper_%28GeoDIL_number_-_854%29.jpg",
+        "alt": "Specimen of native copper about 6 cm across, tarnished orange, brown and purple",
+        "author": "Darla Sondrol",
+        "license": "CC0",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Native_copper_(GeoDIL_number_-_854).jpg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Enamelled_litz_copper_wire.JPG/960px-Enamelled_litz_copper_wire.JPG",
+        "alt": "Close-up of twisted strands of enamelled copper litz wire",
+        "author": "Alisdojo",
+        "license": "CC0",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Enamelled_litz_copper_wire.JPG"
+      }
+    ]
+  },
+  "47": {
+    "uses": [
+      {
+        "title": "Jewelry and silverware",
+        "description": "Silver has long been used for jewelry, tableware and decorative objects."
+      },
+      {
+        "title": "Electronics",
+        "description": "Silver has the highest electrical conductivity of any metal and is used in electrical contacts and conductive pastes, including in solar cells."
+      },
+      {
+        "title": "Mirrors",
+        "description": "Thin silver coatings reflect visible light very well and are used in mirrors and optical equipment."
+      },
+      {
+        "title": "Wound dressings",
+        "description": "Silver compounds are used in some wound dressings for their antimicrobial properties."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Silver_crystal.jpg/960px-Silver_crystal.jpg",
+        "alt": "Electrolytically grown pure silver crystal with branching dendritic structures, with a 5 mm scale bar",
+        "author": "Alchemist-hp (www.pse-mendelejew.de)",
+        "license": "FAL, CC BY-SA 3.0 DE, GFDL 1.2 or CC BY-NC-ND 3.0 US",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Silver_crystal.jpg"
+      }
+    ]
+  },
+  "79": {
+    "uses": [
+      {
+        "title": "Jewelry",
+        "description": "Gold is prized for jewelry because it is attractive, easy to shape and does not tarnish."
+      },
+      {
+        "title": "Electronics",
+        "description": "Thin gold plating is used on connectors and contacts because it conducts well and resists corrosion."
+      },
+      {
+        "title": "Investment and reserves",
+        "description": "Gold is held as bullion and coins by investors and as reserves by central banks."
+      },
+      {
+        "title": "Dentistry",
+        "description": "Gold alloys are used for some dental crowns and fillings because they are durable and well tolerated."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Gold-crystals.jpg/960px-Gold-crystals.jpg",
+        "alt": "Synthetic gold crystals with a branching, blocky structure, with a 2 mm scale bar",
+        "author": "Alchemist-hp (www.pse-mendelejew.de)",
+        "license": "FAL or CC BY-SA 3.0 DE",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Gold-crystals.jpg"
+      },
+      {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Native_gold_nuggets.jpg",
+        "alt": "Three natural gold nuggets with crystalline surfaces",
+        "author": "Aramgutang (English Wikipedia)",
+        "license": "Public domain (PD-user-en)",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Native_gold_nuggets.jpg"
+      }
+    ]
+  },
+  "80": {
+    "uses": [
+      {
+        "title": "Fluorescent lamps",
+        "description": "Fluorescent tubes and compact fluorescent lamps contain a small amount of mercury vapor that emits UV light when energized."
+      },
+      {
+        "title": "Thermometers and barometers",
+        "description": "Mercury was long used in thermometers and barometers, though these are being phased out because of its toxicity."
+      },
+      {
+        "title": "Dental amalgam",
+        "description": "Mercury is combined with silver and other metals in dental amalgam fillings, a use that is being phased down internationally."
+      },
+      {
+        "title": "Chlorine production",
+        "description": "Some chlor-alkali plants have used mercury cells to make chlorine and sodium hydroxide, a process now being phased out."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Pouring_liquid_mercury_bionerd.jpg/960px-Pouring_liquid_mercury_bionerd.jpg",
+        "alt": "Liquid mercury being poured into a glass petri dish, forming a shiny silver puddle",
+        "author": "Bionerd",
+        "license": "GFDL or CC BY 3.0",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Pouring_liquid_mercury_bionerd.jpg"
+      }
+    ]
+  },
+  "92": {
+    "uses": [
+      {
+        "title": "Nuclear power",
+        "description": "Uranium enriched in uranium-235 is made into fuel pellets that power most commercial nuclear reactors."
+      },
+      {
+        "title": "Naval propulsion",
+        "description": "Nuclear reactors fueled with uranium power some submarines and aircraft carriers."
+      },
+      {
+        "title": "Counterweights and shielding",
+        "description": "Depleted uranium is very dense and has been used for aircraft counterweights and radiation shielding."
+      },
+      {
+        "title": "Dating rocks",
+        "description": "The slow decay of uranium into lead is used to measure the age of rocks and minerals."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Nuclear_Fuel_Pellets_%2814492225000%29.jpg/960px-Nuclear_Fuel_Pellets_%2814492225000%29.jpg",
+        "alt": "Gloved hand holding three small uranium fuel pellets above rows of fuel rods",
+        "author": "Nuclear Regulatory Commission from US",
+        "license": "Public domain (PD-USGov-NRC); also tagged CC BY 2.0",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Nuclear_Fuel_Pellets_(14492225000).jpg"
+      },
+      {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Yellow_Cake_Uranium_%2814492248719%29.jpg/960px-Yellow_Cake_Uranium_%2814492248719%29.jpg",
+        "alt": "Chunks of bright yellow yellowcake, a uranium oxide concentrate produced from uranium ore",
+        "author": "Nuclear Regulatory Commission from US",
+        "license": "Public domain (PD-USGov-NRC); also tagged CC BY 2.0",
+        "pageUrl": "https://commons.wikimedia.org/wiki/File:Yellow_Cake_Uranium_(14492248719).jpg"
+      }
+    ]
+  }
+}

@@ -1,11 +1,13 @@
 import { AnimatePresence, motion } from 'framer-motion';
 import { ELEMENTS, CATEGORIES, categoryColor } from '../data/categories';
+import { STATE_LABELS, stateAt } from '../data/phase';
 import { useTable } from '../store';
 import { AtomModel } from './AtomModel';
 
 /** Sits in the empty top-middle of the table and shows the hovered element. */
 export function Spotlight() {
   const hovered = useTable((s) => s.hovered);
+  const temperature = useTable((s) => s.temperature);
   const el = ELEMENTS.find((e) => e.number === hovered) ?? ELEMENTS[0];
   const color = categoryColor(el.cat);
 
@@ -30,7 +32,7 @@ export function Spotlight() {
               <div><dt>Mass</dt><dd>{el.atomic_mass.toFixed(3)} u</dd></div>
               <div><dt>Shells</dt><dd>{el.shells.join(' · ')}</dd></div>
               <div><dt>Config</dt><dd>{el.electron_configuration_semantic}</dd></div>
-              <div><dt>Phase</dt><dd>{el.phase}</dd></div>
+              <div><dt>Phase</dt><dd>{STATE_LABELS[stateAt(el, temperature)]} at {temperature} K</dd></div>
             </dl>
           </div>
         </motion.div>

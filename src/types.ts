@@ -33,3 +33,26 @@ export type CategoryKey =
   | 'lanthanide'
   | 'actinide'
   | 'unknown';
+
+export type MatterState = 'solid' | 'liquid' | 'gas' | 'unknown';
+
+export interface ElementUse {
+  title: string;
+  description: string;
+}
+
+export interface ElementImage {
+  url: string; // verified Wikimedia Commons image URL
+  alt: string;
+  author: string;
+  license: string; // as tagged on the Commons file page; "A or B" means a choice of licenses
+  pageUrl: string; // Commons file page (attribution / full license terms)
+}
+
+export interface ElementUses {
+  uses: ElementUse[];
+  images: ElementImage[];
+}
+
+/** Shape of src/data/uses.json, keyed by atomic number (JSON keys are strings). */
+export type UsesData = Record<string, ElementUses>;
