@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { ELEMENTS, CATEGORIES, categoryColor } from '../data/categories';
 import { useTable } from '../store';
 import { AtomModel } from './AtomModel';
+import { UsesSection } from './UsesSection';
 
 const kToC = (k: number | null) => (k == null ? '—' : `${(k - 273.15).toFixed(1)} °C`);
 
@@ -75,11 +76,7 @@ export function DetailPanel() {
                   <div><dt>Discovered by</dt><dd>{el.discovered_by ?? '—'}</dd></div>
                 </dl>
 
-                {/* Step 5 of the plan: real-life uses, images and videos go here */}
-                <section className="uses-placeholder">
-                  <h3>Real-life uses</h3>
-                  <p>Coming in step 5 — photos, examples and a short video for this element.</p>
-                </section>
+                <UsesSection number={el.number} name={el.name} />
 
                 <a className="source-link" href={el.source} target="_blank" rel="noreferrer">
                   Read more on Wikipedia ↗
