@@ -49,9 +49,17 @@ export interface ElementImage {
   pageUrl: string; // Commons file page (attribution / full license terms)
 }
 
+export interface ElementVideo {
+  url: string; // direct video file (e.g. .mp4) or a YouTube link
+  poster?: string;
+  credit: string;
+  aiGenerated: boolean;
+}
+
 export interface ElementUses {
   uses: ElementUse[];
   images: ElementImage[];
+  video?: ElementVideo;
 }
 
 /** Shape of src/data/uses.json, keyed by atomic number (JSON keys are strings). */

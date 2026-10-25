@@ -1,16 +1,21 @@
 import { useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { ELEMENTS, CATEGORIES, categoryColor } from '../data/categories';
+import { STATE_LABELS, stateAt } from '../data/phase';
+import { usesFor } from '../data/uses';
 import { useTable } from '../store';
 import { AtomModel } from './AtomModel';
 import { UsesSection } from './UsesSection';
+import { VideoSection } from './VideoSection';
 
 const kToC = (k: number | null) => (k == null ? '—' : `${(k - 273.15).toFixed(1)} °C`);
 
 export function DetailPanel() {
   const selected = useTable((s) => s.selected);
   const setSelected = useTable((s) => s.setSelected);
+  const temperature = useTable((s) => s.temperature);
   const el = ELEMENTS.find((e) => e.number === selected);
+  const video = el && usesFor(el.number)?.video;
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -67,7 +72,7 @@ export function DetailPanel() {
                 <dl className="facts">
                   <div><dt>Atomic mass</dt><dd>{el.atomic_mass.toFixed(4)} u</dd></div>
                   <div><dt>Electron config</dt><dd>{el.electron_configuration_semantic}</dd></div>
-                  <div><dt>Phase (room temp)</dt><dd>{el.phase}</dd></div>
+                  <div><dt>Phase</dt><dd>{STATE_LABELS[stateAt(el, temperature)]} at {temperature} K</dd></div>
                   <div><dt>Melting point</dt><dd>{kToC(el.melt)}</dd></div>
                   <div><dt>Boiling point</dt><dd>{kToC(el.boil)}</dd></div>
                   <div><dt>Density</dt><dd>{el.density == null ? '—' : `${el.density} ${el.phase === 'Gas' ? 'g/L' : 'g/cm³'}`}</dd></div>
@@ -77,6 +82,8 @@ export function DetailPanel() {
                 </dl>
 
                 <UsesSection number={el.number} name={el.name} />
+                {/* keyed so switching elements resets the player to its unloaded state */}
+                {video && <VideoSection key={video.url} video={video} name={el.name} />}
 
                 <a className="source-link" href={el.source} target="_blank" rel="noreferrer">
                   Read more on Wikipedia ↗
