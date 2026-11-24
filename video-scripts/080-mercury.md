@@ -56,4 +56,5 @@ Check the generated footage against these before publishing:
 
 - Never show anyone touching mercury with bare hands or handling it without protection.
 - The phase-out refers to the Minamata Convention on Mercury (adopted 2013).
+- The Minamata Convention is phasing out fluorescent lamps too (compact fluorescent lamps by the end of 2025, linear tubes by about 2027). Scene 4's line is still true, but it describes a declining use.
 - Gallium and caesium melt just above room temperature; mercury is the only metal that is liquid at standard room temperature.

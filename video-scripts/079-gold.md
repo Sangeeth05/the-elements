@@ -1,12 +1,12 @@
 # Gold (Au, 79): video script
 
-- **Length:** 40 seconds, 85 words of narration
+- **Length:** 40 seconds, 86 words of narration
 - **Scenes:** 6
 - **Style prompt (add to every scene):** Photorealistic and cinematic, soft studio lighting, deep navy-to-black backgrounds, shallow depth of field, slow and smooth camera moves, 16:9. No text, captions, logos or watermarks in the frame (titles are added in editing).
 
 ## Narration
 
-Gold does not rust or tarnish, so it keeps its shine for thousands of years. Scientists think much of the universe's gold was forged in violent events, such as colliding neutron stars. It is so soft that it can be hammered into sheets hundreds of times thinner than a human hair. Electronics use thin gold coatings on connectors because gold conducts well and does not corrode. It is also held as bullion by banks, and worn as jewelry around the world. Rare, stable, and precious.
+Gold does not corrode or tarnish, so it keeps its shine for thousands of years. Scientists think much of the universe's gold was forged in violent events, such as colliding neutron stars. It is so soft that it can be hammered into sheets hundreds of times thinner than a human hair. Electronics use thin gold coatings on connectors because gold conducts well and does not corrode. It is also held as bullion by central banks, and worn as jewelry around the world. Rare, stable, and precious.
 
 ## Scenes
 
@@ -14,7 +14,7 @@ Gold does not rust or tarnish, so it keeps its shine for thousands of years. Sci
 
 **Visual prompt:** Synthetic gold crystals with branching, blocky shapes rotating slowly under warm light.
 
-**Narration:** "Gold does not rust or tarnish, so it keeps its shine for thousands of years."
+**Narration:** "Gold does not corrode or tarnish, so it keeps its shine for thousands of years."
 
 **On-screen text (add in editing):** Au · Gold · 79
 
@@ -40,7 +40,7 @@ Gold does not rust or tarnish, so it keeps its shine for thousands of years. Sci
 
 **Visual prompt:** Neat stacks of gold bars in a vault, then a close-up of a gold ring being polished.
 
-**Narration:** "It is also held as bullion by banks, and worn as jewelry around the world."
+**Narration:** "It is also held as bullion by central banks, and worn as jewelry around the world."
 
 ### Scene 6 (37–40 s)
 
@@ -54,5 +54,10 @@ Gold does not rust or tarnish, so it keeps its shine for thousands of years. Sci
 
 Check the generated footage against these before publishing:
 
-- The neutron-star origin of gold is the leading scientific explanation, so the narration says "scientists think".
+- Neutron-star mergers are a leading explanation for the origin of gold, but how much of it they produce is still debated, so the narration says "scientists think" and "much of". The strongest evidence is the 2017 kilonova that followed the neutron-star merger GW170817.
+- Scene 2 is an artist's impression, not real footage, and shouldn't be presented as real.
 - Gold leaf is roughly 0.1 micrometres thick; a human hair is roughly 50 to 100 micrometres.
+- The gold leaf in Scene 3 should look translucent and flutter, not like thick foil.
+- Pure gold doesn't tarnish, but lower-karat gold alloys can tarnish slightly. Keep this in mind for the ring in Scene 5.
+- The gold bars in Scene 5 shouldn't show readable refiner stamps or bank markings.
+- An example of "thousands of years": Tutankhamun's gold mask (about 1323 BC, roughly 3,300 years old) still shines.
